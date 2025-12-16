@@ -1,0 +1,11 @@
+NavigationLink(
+    destination: VideoLessonsView(
+        videos: [
+            "natural_numbers",
+            "percent",
+            "decimal"
+        ]
+    ),
+    isActive: $appState.showAllConspects
+) { EmptyView() }
+.hidden()
